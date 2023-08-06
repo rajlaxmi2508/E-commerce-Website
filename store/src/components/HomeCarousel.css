@@ -1,0 +1,41 @@
+.carousel-container {
+    display: flex;
+    align-items: center;
+    height: 80vh; 
+    position: relative;
+  }
+  
+  .images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    transition: all 1.5s ease;
+  }
+  .Textcont{
+    font-size: 50px;
+    display:flex-end;
+    padding-left: 300px;
+  
+  }
+  
+  .btn {
+    background-color:teal;
+    color: white;
+    transition: background-color 0.3s; 
+    border-radius: 1rem;;
+  }
+  
+  .btn:hover {
+    color: black;
+    background-color:white; 
+  }
+  .carousel-image {
+    transition: all 1.5s ease;
+    width: 100vw;
+    height: 80vh; 
+    object-fit: cover; 
+  }
+
+  
+  

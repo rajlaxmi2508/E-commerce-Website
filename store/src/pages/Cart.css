@@ -1,0 +1,142 @@
+.Cart-Wrapper { 
+  padding: 20px;
+  /* ${mobile({ padding: "10px" })} */
+}
+
+.Cart-Title{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+} 
+  
+
+.Cart-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+} 
+ 
+
+
+.Cart-topButton{
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  /* border: ${(props) => props.type === "filled" && "none"};
+  background-color: ${(props) =>
+    props.type === "filled" ? "black" : "transparent"};
+  color: ${(props) => props.type === "filled" && "white"}; */
+  }
+
+/* .Cart-toptexts {
+  ${mobile({ display: "none" })}
+} */
+.Cart-toptext {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
+}
+
+.Cart-Bottom {
+  display: flex;
+  justify-content: space-between;
+  /* ${mobile({ flexDirection: "column" })} */
+}
+
+
+.Cart-Info {
+  flex: 3;
+}
+
+.Cart-Product {
+  display: flex;
+  justify-content: space-between;
+  /* ${mobile({ flexDirection: "column" })} */
+}
+
+.Cart-ProductDetail {
+  flex: 2;
+  display: flex;
+}
+
+.Cart-Image{
+  width: 200px;
+}
+
+.Cart-Details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+.Cart-ProductColor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  /* background-color: ${(props) => props.color}; */
+}
+
+
+.Cart-PriceDetail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Cart-ProductAmountContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Cart-ProductAmount{
+  font-size: 24px;
+  margin: 5px;
+  /* ${mobile({ margin: "5px 15px" })} */
+}
+
+.Cart-ProductPrice {
+  font-size: 30px;
+  font-weight: 200;
+  /* ${mobile({ marginBottom: "20px" })} */
+}
+
+hr {
+  background-color: #eee;
+  border: none;
+  height: 1px;
+}
+
+.Cart-Summary{
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 50vh;
+}
+
+.Cart-SummaryTitle {
+  font-weight: 200;
+}
+
+.Cart-SummaryItem{
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  /* font-weight: ${(props) => props.type === "total" && "500"};
+  font-size: ${(props) => props.type === "total" && "24px"}; */
+}
+
+.Cart-Checkout {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
